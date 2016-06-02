@@ -1,0 +1,443 @@
+
+/* =================== MM Styles Starts ======================= */
+body { font-size: 14px }
+
+/* Header styles */
+header {
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+
+.my-slideshow {
+	position: absolute !important; 
+	width: 100%;
+}
+
+.my-slideshow .bjqs li {
+	background-position: top center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+header:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	opacity: 0.3;
+	z-index: 2;
+}
+
+header .container { padding-top: 25px; }
+/* End of Header styles */
+
+
+/* Menu */
+.mm-headerMenu { list-style: none; }
+
+.mm-headerMenu li {
+	float: left;
+	padding: 5px 10px;
+	margin: 0 5px;
+	transition: all 800ms ease;
+	outline: 1px solid transparent;
+}
+
+.mm-headerMenu li:hover {
+	outline: 1px solid #fff;	
+}
+
+.mm-headerMenu li a {
+	color: #fff;
+	text-decoration: none;
+}
+/* End of Menu */
+
+
+/* Work section */
+
+
+/* End of Work section */
+
+
+
+/* Helper classes */
+.no-margin { margin: 0 !important; }
+.no-margin-top { margin-top: 0 !important; }
+.margin-top-15 { margin-top: 15px; }
+
+.no-padding { padding: 0; }
+.no-padding-right { padding-right: 0; }
+.section-padding { padding: 150px 0; }
+
+.zIndex-5 { z-index: 5; }
+.pos-rel { position: relative; }
+.opacity-8 { opacity: 0.8 }
+.half-width { width: 50%; }
+.bg-gray { background-color: #f4f5f5; }
+
+/* Fonts */
+.fw-bold { font-weight: bold; }
+
+.fs-16 { font-size: 16px; }
+.fs-18 { font-size: 18px; }
+.fs-22 { font-size: 22px; }
+.fs-55 { font-size: 55px; }
+
+.txt-upper { text-transform: uppercase; }
+.txt-center { text-align: center; }
+
+.blocks {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.clear-both { clear: both; }
+
+
+.btn {
+	display: inline-block;
+	border-radius: 3px;
+	background-color: transparent;
+	padding: 10px 20px;
+	color: #000;
+	border: 1px solid #000;
+	text-decoration: none;
+	transition: all 500ms ease;
+}
+
+.btn:hover {
+	color: #fff;
+	background-color: #000;
+	text-decoration: none;
+}
+
+.btn-mini {
+	padding: 5px 10px;
+}
+
+.frame {
+	padding: 30px;
+	margin: 30px 0;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.vertically-center {
+	position: absolute;
+  	top: 50%;
+  	transform: translateY(50%);
+}
+/* =================== MM Styles Ends ======================= */
+
+
+#em_about {
+	padding: 15% 0%;
+	width: auto;
+	height: auto;
+}
+
+#em_about h3 {
+	padding: 10% 0% 0% 15%;
+	font-weight: bold;
+}
+
+.em_firstp {
+	padding: 0% 10% 10% 15%;
+	line-height: 22px;
+	letter-spacing: 0.5px;
+	font-size: 16px;
+	color:#AE678D;
+}
+
+.em_secondp {
+	padding: 0% 10% 3% 15%;
+	color:#A47E92;	
+}
+
+
+.em_btn {
+	margin-left: 55px;
+	color:black;
+	padding: 10px 15px 10px 15px;
+	border:1px solid black;
+	line-height: 50px;
+	transition: all 0.5s linear;
+}
+
+.em_btn:hover {
+	text-decoration: none;
+	color:white;
+	background-color: #223;
+}
+
+#em_about hr {
+	width: 265px;
+	margin-left: 55px;
+	background-color: #C3C4C4;
+}
+
+
+/*about end*/
+
+/*em testimonials start*/
+#em_testimonials {
+	padding: 10% 0%;
+	background-color: #F4F5F5;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: transparent;
+	padding: 0px;
+}
+
+#em_testimonials h3 {
+	font-weight: bold;
+	color:black;
+}
+
+.jumbotron p {
+	font-family:Helvetica;
+	color:#282C35;
+	font-size: 24px;
+	font-family:serif;
+}
+
+.thumbnail {
+	border:none;
+	box-shadow: none;
+	border-radius: 0px;
+	margin-top: 20px;
+	background-color: transparent;
+}
+
+#em_testimonials hr {
+	background-color:#C3C4C4;
+	margin-top: 40px;
+	height: 1px;
+}
+
+.em_mid h3 {
+	text-align: center;
+	padding: 20px 0px 40px 0px;
+}
+
+.em_photos {
+	float: left;
+	margin-right: 18px;
+	width: 75px;
+	height: 200px;
+}
+
+.em_mid p {
+	color:#7C7E91;
+	font-size:16px;
+	font-family:Helvetica;
+	letter-spacing: 0.5px;
+}
+
+.em_mid h4 {
+	margin-top: 30px;
+}
+
+/*em testimonials start*/
+
+
+/*blog starts*/
+
+
+
+.ds {
+	width: 100%;	
+	height: auto;
+	padding: 10% 0%; 
+	background-color: #F4F5F5;
+}
+
+#em_blog h3{
+	font-weight: bold;
+}
+
+.em_big {
+	margin: 30px 0px;
+	width: 80%;
+	height: 470px;
+	border:1px solid #C3C4C4;
+}
+
+.em_second {
+	padding: 10%;
+	
+}
+
+.em_second p {
+	font-size: 15px;
+}
+
+
+.em_bala {
+	color: white;
+	background-color: black;
+	text-align: center;
+	margin-bottom: 14px;
+	width: 90px;
+	height: 22px;
+}
+
+.em_btn2 {
+	color:black;
+	padding: 10px 15px 10px 15px;
+	border:1px solid black;
+	line-height: 50px;
+	border-radius: 3px;
+	transition: all 0.5s linear;
+}
+
+.em_btn2:hover {
+	text-decoration: none;
+	color:white;
+	background-color: #223;
+}
+
+.em_esas {
+	width: 92px;
+	height: 127px;
+	border:1px solid black;
+}
+
+.em_elave {
+	/*display: inline-block;*/
+	width: 500px;
+	height: 92px;
+	border:1px solid black;
+} 
+
+
+/*service starts*/
+#services{
+	background: #F4F5F5;
+	height:auto;
+	padding: 100px 0px;
+}
+
+#services .nz-service-left{
+	margin-top: 100px;
+}
+
+#services .nz-service-left p{
+	font-size: 17px;
+}	
+
+#services .thumbnail span, h4{
+	font-size: 15px;	
+}
+
+#services .thumbnail span{
+	color: #7c7e83;
+}
+
+#services .thumbnail{
+	padding: 30px;
+	background: #F4F5F5;
+	border-radius: 0px;
+	box-shadow: none;
+}
+
+/*services end*/
+
+#video{
+	 position: relative;
+	 background: transparent;
+}
+
+#video:before {
+	 /*content: ""; */
+	width: 100%;
+	/*height: 100%;*/
+	position: absolute;
+	top: 0;
+	background-color: #000;
+	opacity: 0.4;
+}
+
+.ytplayer-container{
+	 position: absolute;
+	 top: 0;
+	 z-index: -1;
+}
+
+#team .over{
+	padding-top:80px;
+}
+
+#team.over hr{
+	width:150px;
+}
+
+#team img{
+	width: 240px;
+	height: 240px;
+}
+
+#team .hovereffect {
+	float:left;
+	overflow:hidden;
+	position:relative;
+	text-align:center;
+	margin-top: 20px;
+}
+
+#team .hovereffect .over {
+	width:100%;
+	height:100%;
+	position:absolute;
+	overflow:hidden;
+	top:0;
+	left:0;
+	opacity:0;
+	background-color:rgba(0,0,0,0.5);
+}
+
+#team .hovereffect img {
+transition:all .2s linear;
+}
+
+#team .hovereffect h4{
+	color: white;
+}
+
+#team .hovereffect p{
+	color: white;
+}
+
+#team .hovereffect:hover img {
+	transform:scale(1.2);
+}
+
+#team .hovereffect:hover .over {
+	opacity:1;
+}
+
+#team .text{
+	margin-top: 200px;
+	margin-left: 40px;
+}
+
+#map{
+	margin-top: 25px;
+}
+
+#footer{
+	padding: 50px 0;
+	background: #1F2229;
+}
+
+#footer .paragraph{
+	padding-bottom: 50px;
+}
+
+/* =================== NZ Styles Ends ======================= */
