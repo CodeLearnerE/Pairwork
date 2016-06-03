@@ -4,7 +4,8 @@ $('#video').YTPlayer({
     playerVars: {
       //autohide: 0
     controls: 2,
-    }
+    heightStr : 100
+   }
 })
 
 $('.my-slideshow').bjqs({
